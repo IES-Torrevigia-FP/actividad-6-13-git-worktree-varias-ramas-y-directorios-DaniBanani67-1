@@ -1,3 +1,3 @@
 # Proyecto Worktree
 
-Rama main.
+Rama main.Funcionalidad B en desarrollo.
