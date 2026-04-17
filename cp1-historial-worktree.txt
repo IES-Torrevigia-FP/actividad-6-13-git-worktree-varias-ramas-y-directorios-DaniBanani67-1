@@ -1,0 +1,8 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-DaniBanani67-1$ git log --oneline --all
+882fe4d (feature-a) Añade funcionalidad A
+f8c0f33 (HEAD -> main) Commit inicial en main
+0bbee65 (origin/main, origin/HEAD) add deadline
+deb1ad7 Initial commit
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-DaniBanani67-1$ git branch
+  feature-a
+* main
