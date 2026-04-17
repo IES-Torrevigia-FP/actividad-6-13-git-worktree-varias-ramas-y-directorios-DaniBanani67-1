@@ -1,0 +1,6 @@
+dani@dani-VirtualBox:~/Documentos/dev/wt-feature-b$ git worktree remove ../wt-feature-a --force
+dani@dani-VirtualBox:~/Documentos/dev/wt-feature-b$ git worktree list
+/home/dani/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-DaniBanani67-1  f8c0f33 [main]
+/home/dani/Documentos/dev/wt-feature-b                                                           d77ee2b [feature-b]
+
+remove elimina el worktree. prune limpia si quedan restos.

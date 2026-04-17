@@ -1,0 +1,21 @@
+dani@dani-VirtualBox:~/Documentos/dev/wt-feature-b$ echo "Funcionalidad B en desarrollo." >> README.md
+git add README.md
+git commit -m "Añade funcionalidad B en rama feature-b"
+[feature-b d77ee2b] Añade funcionalidad B en rama feature-b
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+dani@dani-VirtualBox:~/Documentos/dev/wt-feature-b$ cd ../actividad-6-13-git-worktree
+git worktree list
+git log --oneline --all
+bash: cd: ../actividad-6-13-git-worktree: No existe el archivo o el directorio
+/home/dani/Documentos/dev/actividad-6-13-git-worktree-varias-ramas-y-directorios-DaniBanani67-1  f8c0f33 [main]
+/home/dani/Documentos/dev/wt-feature-a                                                           5f4460b [feature-a]
+/home/dani/Documentos/dev/wt-feature-b                                                           d77ee2b [feature-b]
+d77ee2b (HEAD -> feature-b) Añade funcionalidad B en rama feature-b
+5f4460b (feature-a) Actualiza README en main
+aae30f5 Amplía detalles de funcionalidad A
+882fe4d Añade funcionalidad A
+f8c0f33 (main) Commit inicial en main
+0bbee65 (origin/main, origin/HEAD) add deadline
+deb1ad7 Initial commit
+
+Con -b creas la rama y el worktree a la vez, en vez de crear la rama primero con git branch.
